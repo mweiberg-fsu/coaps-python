@@ -8,7 +8,7 @@ We need some software that can manage environments and store our Python librarie
 - **Anaconda** - Python distribution for data science with built-in package management.
 
 ### Integrated Development Environment (IDE)
-We need to install an IDE to allow us to build out our scripts, projects, and eventually plots! Below are three industry standard tools that can allow us to do this.
+We need to install an IDE to allow us to build out our scripts, projects, and eventually plots! Below are three industry standard tools that can allow us to do this. I would recommend just choosing one for now based on your comfort level. Additional details are provided below with images to help you decide!
 - **Visual Studio Code** - Versatile IDE with debugging and extension support.
 - **Pycharm** - Advanced IDE with code completion, debugging, testing, and project management features.
 - **Jupyter Notebook** - Interactive IDE for writing and running code with visuals and notes.
