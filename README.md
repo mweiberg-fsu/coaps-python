@@ -13,7 +13,7 @@ The COAPS Python Toolbelt & Tutorial is designed to get users up and running wit
 > [!IMPORTANT]
 > Make sure to switch the **‘Download for Mac’ to Intel** with the dropdown arrow when at COAPS.
 
-![Anaconda Installer](https://i.imgur.com/k8M2op4.png)
+![Anaconda Installer](https://i.imgur.com/GqMOcSI.png)
 
 2. Once we get that installed, we should have a screen that looks like this
 
