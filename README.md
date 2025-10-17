@@ -2,10 +2,20 @@
 The COAPS Python Toolbelt & Tutorial is designed to get users up and running with a Python environment. Below is a list of software/IDEs that are considered industry standard. 
 
 ## Software Utilized
+
+### Managing Environments
+We need some software that can manage environments and store our Python libraries. Anaconda is a powerful software bundle that allows us to create as many environments as we want and provides an additional launchpad for installing other tools! This is important when we are working on multiple projects with different libraries or wanting to share projects with other users.
 - **Anaconda** - Python distribution for data science with built-in package management.
+
+### Integrated Development Environment (IDE)
+We need to install an IDE to allow us to build out our scripts, projects, and eventually plots! Below are three industry standard tools that can allow us to do this.
 - **Visual Studio Code** - Versatile Integrated Development Environment (IDE) with debugging and extension support.
 - **Jupyter Notebook** - Interactive IDE for writing and running code with visuals and notes.
 - **Pycharm** - Advanced IDE with code completion, debugging, testing, and project management features.
+
+### Additional Tools
+While it is important to understand the fundamentals of Python and the syntax it utilizes, we don't need to fly in the dark! Github Copilot can be natively installed via extensions in Visual Studio Code or PyCharm. This is essentially an AI coding assistant that can help the onboarding process for those just being introduced to Python.
+
 - **GitHub Copilot** - AI assistant that suggests and completes comments/code in real time.
 
 ## Table of Contents
