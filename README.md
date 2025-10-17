@@ -10,8 +10,8 @@ We need some software that can manage environments and store our Python librarie
 ### Integrated Development Environment (IDE)
 We need to install an IDE to allow us to build out our scripts, projects, and eventually plots! Below are three industry standard tools that can allow us to do this.
 - **Visual Studio Code** - Versatile Integrated Development Environment (IDE) with debugging and extension support.
-- **Jupyter Notebook** - Interactive IDE for writing and running code with visuals and notes.
 - **Pycharm** - Advanced IDE with code completion, debugging, testing, and project management features.
+- **Jupyter Notebook** - Interactive IDE for writing and running code with visuals and notes.
 
 ### Additional Tools
 While it is important to understand the fundamentals of Python and the syntax it utilizes, we don't need to fly in the dark! Github Copilot can be natively installed via extensions in Visual Studio Code or PyCharm. This is essentially an AI coding assistant that can help the onboarding process for those just being introduced to Python.
