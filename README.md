@@ -200,6 +200,14 @@ Now that we have Python environment and IDE set up, we need to get some Python l
 
 ![VS Code PIP](https://i.imgur.com/P2jNmVD.png)
 
+### Method 3: Instlling Python Libraries in PyCharm
+1. Much like VS Code, PyCharm also allows us launch a terminal and install modules. 
+
+![PyCharm PIP](https://i.imgur.com/X2Fz10O.png)
+
+> [!IMPORTANT]
+> Make sure we activate our Anaconda environment first with `conda activate [ENVIRONMENT NAME]` and then do `pip install [PYTHON MODUEL]`
+
 ## Getting Sample Data
 1. We can get some csv data from here for a bunch of different weather stations in Florida - https://climatecenter.fsu.edu/climate-data-access-tools/downloadable-data
 
