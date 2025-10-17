@@ -12,5 +12,5 @@ The COAPS Python Toolbelt & Tutorial is designed to get users up and running wit
 ## Installing Anaconda
 1. The first thing we need to do is download and install Anaconda. This will get all the tools we need for Python and let us set up environments
     - **Download link**: https://www.anaconda.com/download/success
-    - > [!IMPORTANT]
-    - > Make sure to switch the 
+> [!IMPORTANT]
+> Make sure to switch the 
