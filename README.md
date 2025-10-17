@@ -13,4 +13,15 @@ The COAPS Python Toolbelt & Tutorial is designed to get users up and running wit
 > [!IMPORTANT]
 > Make sure to switch the **‘Download for Mac’ to Intel** with the dropdown arrow when at COAPS.
 
-![Anaconda Install](https://i.imgur.com/k8M2op4.png)
+![Anaconda Installer](https://i.imgur.com/k8M2op4.png)
+
+2. Once we get that installed, we should have a screen that looks like this
+
+![Anaconda Installed](https://i.imgur.com/aBA8xxs.png)
+
+3. If you **click on ‘Environments’** on the left, and then **‘Create’ on the bottom left**, you can set up a new environment (name it whatever you want).
+
+> [!TIP]
+> It can take 20-30 second to load in, but should have something like this below
+
+![Anaconda Env](https://i.imgur.com/9XQxNV5.png)
