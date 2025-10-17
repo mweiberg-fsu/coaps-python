@@ -110,25 +110,25 @@ As students (or anyone with a .edu email), we can get Github Copilot for free! T
 ## PyCharm
 1. PyCharm download location can be launched from Anaconda
 
-[PyCharm Anaconda Install](https://i.imgur.com/9QCBFwH.png)
+![PyCharm Anaconda Install](https://i.imgur.com/9QCBFwH.png)
 
 > [!NOTE]
 > Direct download link can be found here: https://www.jetbrains.com/pycharm/data-science/?var=anaconda
 
 2. Click the **Download** link after the web page launches
 
-[Install PyCharm](https://i.imgur.com/sDm6Jdj.png)
+![Install PyCharm](https://i.imgur.com/sDm6Jdj.png)
 
 > [!IMPORTANT]
 > At COAPS, make sure to select **.dmg (Intel)**
 
 3. Once the .dmg file has been downloaded, launch it and drag **PyCharm** to the **Applications folder**
 
-[PyCharm to App Folder](https://i.imgur.com/lFKSA7F.png)
+![PyCharm to App Folder](https://i.imgur.com/lFKSA7F.png)
 
 4. PyCharm is now installed and ready to go! You can start a Notebook file (see Jupyter below), scripts, or entire projects with PyCharm.
 
-[Pycharm Installed](https://i.imgur.com/S2xFt5m.png)
+![Pycharm Installed](https://i.imgur.com/S2xFt5m.png)
 
 ## Jupyter Notebook
 I strongly recommend using Visual Studio Code or PyCharm, it is the industry standard IDEs for computer science and programming! Nevertheless, Jupyter Notebook provides a modular coding environment, and will be used by various professors. It has its advantages for being user friendly and to quickly test coding segments.
