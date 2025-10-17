@@ -142,6 +142,9 @@ PyCharm provides an excellent IDE for managing large projects, as well as integr
 
 ![Copilot login for Pycharm](https://i.imgur.com/e8JPQ7S.png)
 
+> [!NOTE]
+After Github Copilot is activated, suggestions will now appear in your script! Hitting **Tab** will accept suggestions.
+
 ## Jupyter Notebook
 I strongly recommend using Visual Studio Code or PyCharm, it is the industry standard IDEs for computer science and programming! Nevertheless, Jupyter Notebook provides a modular coding environment, and will be used by various professors. It has its advantages for being user friendly and to quickly test coding segments.
 
