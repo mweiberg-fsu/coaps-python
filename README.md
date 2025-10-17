@@ -100,14 +100,14 @@ As students (or anyone with a .edu email), we can get Github Copilot for free! T
 ## PyCharm
 1. PyCharm download location can be launched from Anaconda
 
-![PyCharm Anaconda Install](https://i.imgur.com/9QCBFwH.png)
+[PyCharm Anaconda Install](https://i.imgur.com/9QCBFwH.png)
 
 > [!NOTE]
 > Direct download link can be found here: https://www.jetbrains.com/pycharm/data-science/?var=anaconda
 
 2. Click the **Download** link after the web page launches
 
-![Install PyCharm](https://i.imgur.com/sDm6Jdj.png)
+[Install PyCharm](https://i.imgur.com/sDm6Jdj.png)
 
 > [!IMPORTANT]
 > At COAPS, make sure to select **.dmg (Intel)**
