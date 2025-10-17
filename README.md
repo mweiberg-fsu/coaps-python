@@ -45,3 +45,10 @@ Now that we have Anaconda installed and our Python environment running, let's go
 3. Once downloaded, open your Downloads folder in Finder.
     - If you downloaded the .zip file, double-click it to extract the contents: this will give you the Visual Studio Code.app file
     - Drag the Visual Studio Code.app file to your Applications folder. You’re good to go!
+
+### Part 2: Setting Up a Workspace and Terminal In VS Code
+After launching visual studio code, there are a few things we need to do.
+
+1. Let’s setup a workspace! This is essentially adding a directory for where our files will be located. This can be done via **File -> Add Folder to Workspace**
+
+![VS Code Workspace](https://i.imgur.com/9kJ34zN.png)
