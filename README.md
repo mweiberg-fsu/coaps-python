@@ -108,6 +108,9 @@ As students (or anyone with a .edu email), we can get Github Copilot for free! T
     - To test: Open a .py file, type a comment or function signature, and Copilot will suggest code—press Tab to accept.
 
 ## PyCharm
+PyCharm provides an excellent IDE for managing large projects, as well as integrating Notebooks and scripts.
+
+### Part 1: Install PyCharm
 1. PyCharm download location can be launched from Anaconda
 
 ![PyCharm Anaconda Install](https://i.imgur.com/9QCBFwH.png)
@@ -129,6 +132,15 @@ As students (or anyone with a .edu email), we can get Github Copilot for free! T
 4. PyCharm is now installed and ready to go! You can start a Notebook file (see Jupyter below), scripts, or entire projects with PyCharm.
 
 ![Pycharm Installed](https://i.imgur.com/S2xFt5m.png)
+
+### Part 2: Installing Copilot for PyCharm
+1. Github Copilot can be installed via **Plugins** 
+
+![Copilot for Pycharm](https://i.imgur.com/wFbkwwM.png)
+
+2. After installing the plugin and restarting PyCharm, the Copilot plugin can be found on the bottom right after opening a script. Login with your Github account!
+
+![Copilot login for Pycharm](https://i.imgur.com/e8JPQ7S.png)
 
 ## Jupyter Notebook
 I strongly recommend using Visual Studio Code or PyCharm, it is the industry standard IDEs for computer science and programming! Nevertheless, Jupyter Notebook provides a modular coding environment, and will be used by various professors. It has its advantages for being user friendly and to quickly test coding segments.
