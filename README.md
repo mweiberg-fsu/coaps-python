@@ -38,13 +38,15 @@ Now that we have Anaconda installed and our Python environment running, let's go
 > You can choose the .zip file for a simple installation (recommended for most users) or the User/System Installer if you prefer a guided setup.
 
 > [!IMPORTANT]
-> Download the x64 version to ensure compatibility with your Intel Mac.
+> Download the x64 version to ensure compatibility with your Intel Mac at COAPS.
 
 ![VS Install](https://i.imgur.com/uvwTXou.png)
 
 3. Once downloaded, open your Downloads folder in Finder.
     - If you downloaded the .zip file, double-click it to extract the contents: this will give you the Visual Studio Code.app file
-    - Drag the Visual Studio Code.app file to your Applications folder. You’re good to go!
+
+> [!TIP]
+> Drag the Visual Studio Code.app file to your Applications folder. You’re good to go!
 
 ### Part 2: Setting Up a Workspace and Terminal In VS Code
 After launching visual studio code, there are a few things we need to do.
@@ -84,3 +86,87 @@ As students (or anyone with a .edu email), we can get Github Copilot for free! T
 
 4. Once signed in, Copilot is activated! 
     - To test: Open a .py file, type a comment or function signature, and Copilot will suggest code—press Tab to accept.
+
+## Python Libraries
+Now that we have Python environment and IDE set up, we need to get some Python libraries/modules. Essentially these are plugins for Python that allows us to perform various tasks without needing to code the functions/utilities ourselves!
+
+### Method 1: Installing Python Libraries on Mac
+1. Open a Terminal window in Mac from the App folder
+
+![Terminal](https://i.imgur.com/DKBNNLg.png)
+
+> [!NOTE]
+> If it’s already running, you can create a new tab at the top via ‘Shell’ -> ‘New Tab’ -> ‘New Tab with…’
+
+![Terminal Tab](https://i.imgur.com/O5l93f5.png)
+
+2. In the new Terminal window, type in `conda activate coaps` (or whatever you called your environment earlier), see previous step in VS Code!
+
+3. After our envrionment is active, type in `pip install pandas`. It’ll run a bunch of commands like below. 
+
+![Python Module](https://i.imgur.com/sjFJUTy.png)
+
+> [!TIP]
+> While we're at it, let's install additional Python libraries we will need later.
+
+- `pip install matplotlib`
+- `pip install plotly`
+- `pip install numpy`
+
+### Method 2: Installing Python Libraries in VS Code
+1. This can also be done in Visual Studio Code!
+
+2. Once your conda environment has been activated, you can type in `pip install [PYTHON MODULE]`
+
+![VS Code PIP](https://i.imgur.com/P2jNmVD.png)
+
+## Jupyter Notebook
+I strongly recommend using Visual Studio Code, it is the industry standard IDE for computer science and programming! Nevertheless, Jupyter Notebook provides a modular coding environment, and will be used by various professors. It has its advantages for being user friendly and to quickly test coding segments.
+
+1. In Anaconda, going back to ‘Home’, click ‘install’ for Jupyter Notebook.
+
+![Jupyter Install](https://i.imgur.com/zHPmWPV.png)
+
+2. Launch it after install, and it should load something like this in your web browser
+
+![Jupyter Launch](https://i.imgur.com/Rum60en.png)
+
+3. Create a folder anywhere you want, and inside that folder hit **‘New’ and then ‘Python 3 (ipykernel)’**
+
+> [!NOTE]
+> This will create a new **.ipynb file** (name it whatever you want)
+
+![Jupyter File](https://i.imgur.com/8PVnXR8.png)
+
+4. After that, you’re ready to go! You can add additional cells to run different code at different times.
+
+![Jupyter Launch](https://i.imgur.com/EvbwM4k.png)
+
+## Getting Sample Data
+1. We can get some csv data from here for a bunch of different weather stations in Florida - https://climatecenter.fsu.edu/climate-data-access-tools/downloadable-data
+
+![Data URL](https://i.imgur.com/FsLkbiU.png)
+
+> [!TIP]
+> After navigating to the link above, make sure to select ‘All’ for variable and a year range for the station you select
+
+2. This will download a .csv file, which has a unique name (you can change this name to whatever convention you want!)
+
+> [!IMPORTANT]
+> Move this data file to your main directory (where your python file or .ipynb exists) to access it
+
+## Start Coding
+We're all set up and can now start coding and plotting data!
+
+1. Attached in this GitHub Repo are some sample files and data to start with.
+    - `data.csv` is the data file we downloaded earlier.
+    - `weather_data.py` is a sample Python file with comments that will create plots.
+    - `weather_data.ipynb` is a sample Jupyter file with comments that will create plots.
+
+![Files](https://i.imgur.com/xKp3in3.png)
+
+> [!TIP]
+> After running `weather_data.py` in VS Code, we should get output in the terminal below from our prints.
+
+![Example Output](https://i.imgur.com/Cqwo24B.png)
+
