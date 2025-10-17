@@ -51,4 +51,36 @@ After launching visual studio code, there are a few things we need to do.
 
 1. Let’s setup a workspace! This is essentially adding a directory for where our files will be located. This can be done via **File -> Add Folder to Workspace**
 
-![VS Code Workspace](https://i.imgur.com/9kJ34zN.png)
+![VS Code Workspace](https://i.imgur.com/N8fWrsp.png)
+
+2. Let’s get our terminal up and running! From the menu bar, got to view -> Terminal, or use the shortcut **CTRL + `**
+
+> [!NOTE]
+> In Windows, this can be done by going to **Terminal -> New Terminal**
+
+![VS Code Terminal Launch](https://i.imgur.com/P6kS0pv.png)
+
+3. After our terminal has launched at the bottom of our IDE, we can activate our python environment that we created in Conda! This can be done by typing in `conda activate [ENVIRONMENT NAME]`.
+
+![VS Code Terminal](https://i.imgur.com/JDN2NVu.png)
+
+### Part 3: Activating GitHub Copilot
+As students (or anyone with a .edu email), we can get Github Copilot for free! This utilizes ChatGPT to provide AI assistance while coding. This is particularly useful for providing comments (or vice versa, writing a comment and having Copilot simulate the code). This can significantly reduce time required for coding or providing comments.
+
+1. Go to the Extensions view by clicking the Extensions icon in the Activity Bar (square icon on the left) or using Cmd + Shift + X.
+
+![VS Code Extensions](https://i.imgur.com/UeSUxRs.png)
+
+2. Search for "GitHub Copilot" and install the official extension from GitHub.
+
+![VS Code Copilot](https://i.imgur.com/2JfzTcB.png)
+
+3. Sign in with your [GitHub Account](https://github.com/). You'll be redirected to a browser to authorize VS Code.
+
+> [!NOTE]
+> You can find the GitHub Copilot widget in the bottom right of VS Code, near the terminal.
+
+![Github Login](https://i.imgur.com/nNQt31K.png)
+
+4. Once signed in, Copilot is activated! 
+    - To test: Open a .py file, type a comment or function signature, and Copilot will suggest code—press Tab to accept.
