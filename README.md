@@ -3,15 +3,17 @@ The COAPS Python Toolbelt & Tutorial is designed to get users up and running wit
 
 ## Software Utilized
 - **Anaconda** - Python distribution for data science with built-in package management.
-- **Visual Studio Code** - Versatile code editor with debugging and extension support.
-- **Jupyter Notebook** - Interactive tool for writing and running code with visuals and notes.
+- **Visual Studio Code** - Versatile Integrated Development Environment (IDE) with debugging and extension support.
+- **Jupyter Notebook** - Interactive IDE for writing and running code with visuals and notes.
+- **Pycharm** - Advanced IDE with code completion, debugging, testing, and project management features.
 - **GitHub Copilot** - AI assistant that suggests and completes comments/code in real time.
 
 ## Table of Contents
 - [Anaconda](#anaconda)
 - [Visual Studio Code](#visual-studio-code)
-- [Python Libraries](#python-libraries)
 - [Jupyter Notebook](#jupyter-notebook)
+- [PyCharm](#pycharm)
+- [Python Libraries](#python-libraries)
 - [Getting Sample Data](#getting-sample-data)
 - [Start Coding](#start-coding)
 
@@ -95,6 +97,51 @@ As students (or anyone with a .edu email), we can get Github Copilot for free! T
 4. Once signed in, Copilot is activated! 
     - To test: Open a .py file, type a comment or function signature, and Copilot will suggest code—press Tab to accept.
 
+## PyCharm
+1. PyCharm download location can be launched from Anaconda
+
+![PyCharm Anaconda Install](https://i.imgur.com/9QCBFwH.png)
+
+> [!NOTE]
+> Direct download link can be found here: https://www.jetbrains.com/pycharm/data-science/?var=anaconda
+
+2. Click the **Download** link after the web page launches
+
+![Install PyCharm](https://i.imgur.com/sDm6Jdj.png)
+
+> [!IMPORTANT]
+> At COAPS, make sure to select **.dmg (Intel)**
+
+3. Once the .dmg file has been downloaded, launch it and drag **PyCharm** to the **Applications folder**
+
+[PyCharm to App Folder](https://i.imgur.com/lFKSA7F.png)
+
+4. PyCharm is now installed and ready to go! You can start a Notebook file (see Jupyter below), scripts, or entire projects with PyCharm.
+
+[Pycharm Installed](https://i.imgur.com/S2xFt5m.png)
+
+## Jupyter Notebook
+I strongly recommend using Visual Studio Code or PyCharm, it is the industry standard IDEs for computer science and programming! Nevertheless, Jupyter Notebook provides a modular coding environment, and will be used by various professors. It has its advantages for being user friendly and to quickly test coding segments.
+
+1. In Anaconda, going back to ‘Home’, click ‘install’ for Jupyter Notebook.
+
+![Jupyter Install](https://i.imgur.com/zHPmWPV.png)
+
+2. Launch it after install, and it should load something like this in your web browser
+
+![Jupyter Launch](https://i.imgur.com/Rum60en.png)
+
+3. Create a folder anywhere you want, and inside that folder hit **‘New’ and then ‘Python 3 (ipykernel)’**
+
+> [!NOTE]
+> This will create a new **.ipynb file** (name it whatever you want)
+
+![Jupyter File](https://i.imgur.com/8PVnXR8.png)
+
+4. After that, you’re ready to go! You can add additional cells to run different code at different times.
+
+![Jupyter Launch](https://i.imgur.com/EvbwM4k.png)
+
 ## Python Libraries
 Now that we have Python environment and IDE set up, we need to get some Python libraries/modules. Essentially these are plugins for Python that allows us to perform various tasks without needing to code the functions/utilities ourselves!
 
@@ -128,28 +175,6 @@ Now that we have Python environment and IDE set up, we need to get some Python l
 
 ![VS Code PIP](https://i.imgur.com/P2jNmVD.png)
 
-## Jupyter Notebook
-I strongly recommend using Visual Studio Code, it is the industry standard IDE for computer science and programming! Nevertheless, Jupyter Notebook provides a modular coding environment, and will be used by various professors. It has its advantages for being user friendly and to quickly test coding segments.
-
-1. In Anaconda, going back to ‘Home’, click ‘install’ for Jupyter Notebook.
-
-![Jupyter Install](https://i.imgur.com/zHPmWPV.png)
-
-2. Launch it after install, and it should load something like this in your web browser
-
-![Jupyter Launch](https://i.imgur.com/Rum60en.png)
-
-3. Create a folder anywhere you want, and inside that folder hit **‘New’ and then ‘Python 3 (ipykernel)’**
-
-> [!NOTE]
-> This will create a new **.ipynb file** (name it whatever you want)
-
-![Jupyter File](https://i.imgur.com/8PVnXR8.png)
-
-4. After that, you’re ready to go! You can add additional cells to run different code at different times.
-
-![Jupyter Launch](https://i.imgur.com/EvbwM4k.png)
-
 ## Getting Sample Data
 1. We can get some csv data from here for a bunch of different weather stations in Florida - https://climatecenter.fsu.edu/climate-data-access-tools/downloadable-data
 
@@ -174,7 +199,7 @@ We're all set up and can now start coding and plotting data!
 ![Files](https://i.imgur.com/xKp3in3.png)
 
 > [!TIP]
-> After running `weather_data.py` in VS Code, we should get output in the terminal below from our prints.
+> After running `weather_data.py` in VS Code, we should get output in the terminal our prints.
 
 ![Example Output](https://i.imgur.com/Cqwo24B.png)
 
