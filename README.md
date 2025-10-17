@@ -7,6 +7,14 @@ The COAPS Python Toolbelt & Tutorial is designed to get users up and running wit
 - **Jupyter Notebook** - Interactive tool for writing and running code with visuals and notes.
 - **GitHub Copilot** - AI assistant that suggests and completes comments/code in real time.
 
+## Table of Contents
+- [Anaconda](#anaconda)
+- [Visual Studio Code](#visual-studio-code)
+- [Python Libraries](#python-libraries)
+- [Jupyter Notebook](#jupyter-notebook)
+- [Getting Sample Data](#getting-sample-data)
+- [Start Coding](#start-coding)
+
 ## Anaconda
 1. The first thing we need to do is download and install Anaconda. This will get all the tools we need for Python and let us set up environments
     - Download link: https://www.anaconda.com/download/success
