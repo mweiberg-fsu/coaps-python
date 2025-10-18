@@ -19,6 +19,10 @@ While it is important to understand the fundamentals of Python and the syntax it
 - **GitHub Copilot** - AI assistant that suggests and completes comments/code in real time.
 - **Git Bash** - A terminal utility command-line tool that lets us keep our files externally on GitHub.
 
+### Additional Files
+Some sample data files in .csv are available as well as a guide to download weather data for specific weather stations in Florida. In addition, there is a Notebook file that can be launched in an IDE or a weather_data.py file to showcase some of the amazing features that Python has to offer for categorizing and displaying data!
+
+
 ## Table of Contents
 - [Anaconda](#anaconda)
 - [Visual Studio Code](#visual-studio-code)
@@ -239,7 +243,7 @@ We're all set up and can now start coding and plotting data!
 ![Example Output](https://i.imgur.com/Cqwo24B.png)
 
 ## GitHub Integration
-Since we already created an account for GitHub for Copilot, we might as we utilize it! GitHub allows us to create repositories, upload (called **push** in GitHub) our files/plots, and download (called **pull** in GitHub). This way, we can share files among multiple devices, keep version history, and even share our GitHub repo's with our people!
+Since we already created an account on GitHub for Copilot, we might as well utilize it! GitHub allows us to **create repositories**, **upload** (called **push** in GitHub) our files/plots, and **download** (called **pull** in GitHub). This way, we can share files among multiple devices, keep version history, and even share our GitHub repos with our people!
 
 ### Step 1: Git Bash
 We don't want to manually upload files, so let's get some additional software that lets us do this from a terminal! 
@@ -259,11 +263,11 @@ We don't want to manually upload files, so let's get some additional software th
 ### Step 2: Create Credentials on GitHub
 We need to do some set up for our new GitHub account so we can properly have credentials! 
 
-1. After logging into GitHub, navigate to the top right image (your profile image) and go to **Settings**
+1. After logging into GitHub, **navigate to the top right image** (your profile image) and go to **Settings**
 
 ![GitHub Profile Settings](https://i.imgur.com/Ev5SgP4.png)
 
-2. On the left sidebar of options, scroll all the way to the bottom and select the last option, **Developer settings**
+2. On the **left sidebar of options**, scroll all the way to the bottom and **select the last option, Developer settings**
 
 ![GitHub Developer Settings](https://i.imgur.com/0nddn5E.png)
 
@@ -276,7 +280,7 @@ We need to do some set up for our new GitHub account so we can properly have cre
 ![GitHub Token Selection](https://i.imgur.com/7KExjrN.png)
 
 > [!IMPORTANT]
-> Make sure to select **Generate new token (classic)** when creating our new token.
+> Make sure to **select Generate new token (classic)** when creating our new token.
 
 5. On the next screen, give our credentials any **Note** you want and set the Expiration to **No expiration**
 
@@ -285,11 +289,11 @@ We need to do some set up for our new GitHub account so we can properly have cre
 > [!IMPORTANT]
 > For scopes here, make sure to at least select **repo**. You can **select all of them** if you prefer!
 
-6. One last step here. On the next page, we will get a **Token hash** that typically starts with **ghp_...**. Make sure to save this entire line in a file/notepad somewhere!
+6. One last step here. On the next page, we will get a **Token hash** that typically starts with **ghp_...**. Make sure to **save this entire line in a file/notepad** somewhere!
 
 ![GitHub Token Hash](https://i.imgur.com/NmdUmo2.png)
 
-### Step 3: Grant Access to our new GitHub Acccount
+### Step 3: Grant Access to our new GitHub Account
 After installing git, we can open a terminal in Mac (or use your IDE terminal)! 
 
 1. We want to run these two lines in the terminal:
@@ -308,12 +312,12 @@ After logging into GitHub, we can access our Dashboard on the left!
 
 ![GitHub Repo](https://i.imgur.com/VuoKEX5.png)
 
-2. On the next screen, give our repo a name!
+2. On the next screen, **give our repo a name** and **create it**!
 
 ![alt text](https://i.imgur.com/KjYfNCU.png)
 
-> [!IMPORTANT]
-> If you don't want your repo to be public to everyone, you can **set Visibility** from **Public** -> **Private**. You can still invite **Collaborators** at a later date!
+> [!TIP]
+> If you don't want your repo **to be public** to everyone, you can **set Visibility** from **Public** -> **Private**. You can still invite **Collaborators** at a later date!
 
 3. We want to run these two lines in a Mac terminal (or in your IDE terminal):
     - ``git config --global user.name "Your Name"``
@@ -323,21 +327,21 @@ After logging into GitHub, we can access our Dashboard on the left!
 > The **Git username and email** should match what you made for your GitHub account earlier.
 
 4. Navigate to an empty directory on your computer (or make a new folder). Let's create our first GitHub repo locally! Run these commands in a terminal after navigating to this folder
-`echo "# coaps-test" >> README.md`
-`git init`
-`git add README.md`
-`git commit -m "first commit"`
-`git branch -M main`
+    - `echo "# coaps-test" >> README.md`
+    - `git init`
+    - `git add README.md`
+    - `git commit -m "first commit"`
+    - `git branch -M main`
 
 > [!NOTE]
-> This will (1) create an emtpy README.md file we can add comments to later, (2) initialize our local repo, (3) add our new file locally, (4) create a commit wih a comment, and (5) create a new branch
+> This will (1) **create an empty README.md file** we can add comments to, (2) **initialize our local repo**, (3) **add our new file** locally, (4) **create a commit** with a comment, and (5) **create a branch**
 
 > [!TIP]
-> We can make a directory right from the terminal by using the command `mkdir [FOLDER_NAME]`
+> We can **make a directory** right from the terminal by using the command `mkdir [FOLDER_NAME]`
 
-5. On the main GitHub repo page we just created, you will have a unique url (in addition to the commands we just ran above). Copy that command
-`git remote add origin https://github.com/mweiberg-fsu/change-this-to-your-repo.git`
-`git push -u origin main`
+5. On the main GitHub repo page we just created, **you will have a unique url** (in addition to the commands we just ran above). **Copy that line** with the url:
+    - `git remote add origin https://github.com/mweiberg-fsu/change-this-to-your-repo.git`
+    - `git push -u origin main`
 
 ![GitHub Repo](https://i.imgur.com/pSzWk1M.png)
 
@@ -353,18 +357,21 @@ After logging into GitHub, we can access our Dashboard on the left!
 ### Step 5: Quick GitHub Commands to Remember
 Here are some quick Git commands to use when **pushing and pulling** files from different devices.
 
-1. Let's say we want to download our files on a laptop. If we navigate back to our GitHub page, we can select the **green <> Code** button, this will give a us URL to copy that we can clone!
+1. Let's say we want to download our files on a laptop. If we **navigate back to our GitHub page**, we can select the **green <> Code button**, this will give us a URL to copy so we can clone our repo!
 
 ![GitHub Clone](https://i.imgur.com/Hx92dps.png)
 
-2. After navigating to a directory you want to save your repo at (see steps above), run this command in a terminal (paste in your unique url)
-`git clone https://github.com/mweiberg-fsu/change-this-to-your-repo.git`
+2. After **navigating to a directory** you want to save your repo at (see steps above), **run this command in a terminal**
+    - `git clone https://github.com/mweiberg-fsu/change-this-to-your-repo.git`
 
-3. That will download all the files and create a local GitHub repo on your laptop now!
+> [!TIP]
+> Make sure to change the url above to your unique url.
 
-4. If you ever want to update your files and **push** them to your external GitHub repo, run these commands in succession
+3. This should **download all the files** and **create a local GitHub repo** on your laptop now!
+
+4. If you ever want to update your files and **push** them to your external GitHub repo, **run these commands** in succession
     - `git add .`
     - `git commit -m "add some comments on what you changed"`
     - `git push`
 
-That's it! You now can keep your external and local GitHub repos up-to-date and share them with other people. This is great for putting projects on your resume at a later date as well!
+That's it! You now can **keep your external and local GitHub repos up-to-date and share** them with other people. This is great for putting projects on your resume at a later date as well!
