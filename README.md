@@ -14,9 +14,10 @@ We need to install an IDE to allow us to build out our scripts, projects, and ev
 - **Jupyter Notebook** - Interactive IDE for writing and running code with visuals and notes.
 
 ### Additional Tools
-While it is important to understand the fundamentals of Python and the syntax it utilizes, we don't need to fly in the dark! GitHub Copilot can be natively installed via extensions in Visual Studio Code or PyCharm. This is essentially an AI coding assistant that can help the onboarding process for those just being introduced to Python.
+While it is important to understand the fundamentals of Python and the syntax it utilizes, we don't need to fly in the dark! GitHub Copilot can be natively installed via extensions in Visual Studio Code or PyCharm. This is essentially an AI coding assistant that can help the onboarding process for those just being introduced to Python. We'll also install Git Bash, which is a terminal line command tool that lets us keep our files, plots, and scripts externally for access from other users or other devices!
 
 - **GitHub Copilot** - AI assistant that suggests and completes comments/code in real time.
+- **Git Bash** - A terminal utility command-line tool that lets us keep our files externally on GitHub.
 
 ## Table of Contents
 - [Anaconda](#anaconda)
@@ -26,6 +27,7 @@ While it is important to understand the fundamentals of Python and the syntax it
 - [Python Libraries](#python-libraries)
 - [Getting Sample Data](#getting-sample-data)
 - [Start Coding](#start-coding)
+- [GitHub Integration](#github-integration)
 
 ## Anaconda
 1. The first thing we need to do is download and install Anaconda. This will get all the tools we need for Python and let us set up environments
@@ -236,7 +238,7 @@ We're all set up and can now start coding and plotting data!
 
 ![Example Output](https://i.imgur.com/Cqwo24B.png)
 
-## GitHub Integreation
+## GitHub Integration
 Since we already created an account for GitHub for Copilot, we might as we utilize it! GitHub allows us to create repositories, upload (called **push** in GitHub) our files/plots, and download (called **pull** in GitHub). This way, we can share files among multiple devices, keep version history, and even share our GitHub repo's with our people!
 
 ### Step 1: Git Bash
