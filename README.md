@@ -116,7 +116,7 @@ As students (or anyone with a .edu email), we can get GitHub Copilot for free! T
 ## PyCharm
 PyCharm provides an excellent IDE for managing large projects, as well as integrating Notebooks and scripts.
 
-### Part 1: Install PyCharm
+### Part 1: Installing PyCharm
 1. PyCharm's download location can be launched from Anaconda
 
 ![PyCharm Anaconda Install](https://i.imgur.com/9QCBFwH.png)
@@ -243,7 +243,7 @@ We're all set up and can now start coding and plotting data!
 ![Example Output](https://i.imgur.com/Cqwo24B.png)
 
 ## GitHub Integration
-Since we already created an account on GitHub for Copilot, we might as well utilize it! GitHub allows us to **create repositories**, **upload** (called **push** in GitHub) our files/plots, and **download** (called **pull** in GitHub). This way, we can share files among multiple devices, keep version history, and even share our GitHub repos with our people!
+Since we already created an account on GitHub for Copilot, we might as well utilize it! GitHub allows us to **create repositories**, **upload** (called **push** in GitHub) our files/plots, and **download** (called **pull** in GitHub). This way, we can share files among multiple devices, keep version history, and even share our GitHub repos with other people!
 
 ### Step 1: Git Bash
 We don't want to manually upload files, so let's get some additional software that lets us do this from a terminal! 
@@ -282,7 +282,9 @@ We need to do some set up for our new GitHub account so we can properly have cre
 > [!IMPORTANT]
 > Make sure to **select Generate new token (classic)** when creating our new token.
 
-5. On the next screen, give our credentials any **Note** you want and set the Expiration to **No expiration**
+5. On the next screen, give our credentials any note
+
+!**Note** you want and set the Expiration to **No expiration**
 
 ![GitHub Token Creation](https://i.imgur.com/8eruYU9.png)
 
@@ -293,18 +295,7 @@ We need to do some set up for our new GitHub account so we can properly have cre
 
 ![GitHub Token Hash](https://i.imgur.com/NmdUmo2.png)
 
-### Step 3: Grant Access to our new GitHub Account
-After installing git, we can open a terminal in Mac (or use your IDE terminal)! 
-
-1. We want to run these two lines in the terminal:
-    - ``git config --global user.name "Your Name"``
-    - ``git config --global user.email "your@email.com"``
-
-> [!IMPORTANT]
-> The **Git username and email** should match what you made for your GitHub account earlier.
-
-
-### Step 4: Create a New GitHub Repo
+### Step 3: Create a New GitHub Repo
 
 After logging into GitHub, we can access our Dashboard on the left! 
 
@@ -354,7 +345,7 @@ After logging into GitHub, we can access our Dashboard on the left!
 
 ![alt text](https://i.imgur.com/R8U0GXC.png)
 
-### Step 5: Quick GitHub Commands to Remember
+### Step 4: Quick GitHub Commands to Remember
 Here are some quick Git commands to use when **pushing and pulling** files from different devices.
 
 1. Let's say we want to download our files on a laptop. If we **navigate back to our GitHub page**, we can select the **green <> Code button**, this will give us a URL to copy so we can clone our repo!
